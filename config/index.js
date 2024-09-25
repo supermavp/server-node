@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 const config = {
-    appName: process.APP_NAME,
+    appName: process.env.APP_NAME,
     dev: process.env.NODE_ENV !== 'production',
     port: process.env.PORT,
     apiRM: process.env.API_RICK_MORTY,
